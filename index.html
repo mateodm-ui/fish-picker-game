@@ -204,17 +204,17 @@
             // Fish Selection Logic
             if (water === 'fresh') {
                 if (size <= 2) result = { name: "Moss Ball & Shrimp", emoji: "🦐", desc: "For tiny tanks, shrimp are the happiest pets! They are busy little cleaners." };
-                else if (size <= 5) result = { name: "Betta Fish", emoji: "👺", desc: "A classic Betta! They love this size and are very smart and interactive." };
+                else if (size <= 5) result = { name: "Betta Fish", emoji: "🐠", desc: "A classic Betta! They love this size and are very smart and interactive." };
                 else if (size <= 10) result = { name: "Endler's Livebearers", emoji: "🐟", desc: "Tiny, energetic cousins of Guppies. They zip around like little race cars!" };
-                else if (size <= 20) result = { name: "Neon Tetras", emoji: "💈", desc: "A school of Neon Tetras! They glow under the light and stick together." };
-                else if (size <= 30) result = { name: "Cory Catfish", emoji: "🐱", desc: "Peaceful bottom dwellers that act like water puppies with whiskers!" };
+                else if (size <= 20) result = { name: "Neon Tetras", emoji: "🐟", desc: "A school of Neon Tetras! They glow under the light and stick together." };
+                else if (size <= 30) result = { name: "Cory Catfish", emoji: "🐟", desc: "Peaceful bottom dwellers that act like water puppies with whiskers!" };
                 else result = { name: "Fancy Goldfish", emoji: "🐡", desc: "A big, round Fancy Goldfish. They are messy but very friendly!" };
             } else { // Saltwater
-                if (size <= 5) result = { name: "Hermit Crabs", emoji: "🐚", desc: "Saltwater fish need big tanks, but Hermit Crabs love a sandy beach house!" };
-                else if (size <= 15) result = { name: "Clown Goby", emoji: "🍋", desc: "A tiny yellow fish that likes to sit on rocks and watch you work." };
-                else if (size <= 20) result = { name: "Damselfish", emoji: "🔵", desc: "Electric blue fish! They are very tough and great for your first saltwater tank." };
-                else if (size <= 30) result = { name: "Clownfish", emoji: "🤡", desc: "You found Nemo! These friendly orange fish wiggle when they swim." };
-                else result = { name: "Blue Tang", emoji: "🐠", desc: "You found Dory! A beautiful blue fish that loves to swim fast." };
+                if (size <= 5) result = { name: "Hermit Crabs", emoji: "🦀", desc: "Saltwater fish need big tanks, but Hermit Crabs love a sandy beach house!" };
+                else if (size <= 15) result = { name: "Clown Goby", emoji: "🐠", desc: "A tiny yellow fish that likes to sit on rocks and watch you work." };
+                else if (size <= 20) result = { name: "Damselfish", emoji: "🐟", desc: "Electric blue fish! They are very tough and great for your first saltwater tank." };
+                else if (size <= 30) result = { name: "Clownfish", emoji: "🐠", desc: "You found Nemo! These friendly orange fish wiggle when they swim." };
+                else result = { name: "Blue Tang", emoji: "🐟", desc: "You found Dory! A beautiful blue fish that loves to swim fast." };
             }
 
             // Populate DOM
